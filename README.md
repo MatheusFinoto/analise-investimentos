@@ -1,6 +1,20 @@
 # Análise de investimentos
 
-Projeto em preparação para análise de investimentos. A aplicação, a stack e as dependências do produto ainda serão definidas.
+Plataforma de análise de investimentos em definição, com autenticação como primeira funcionalidade e foco na apresentação visual dos valores.
+
+| Parte | Tecnologia confirmada |
+| --- | --- |
+| Frontend | React + Vite |
+| Backend | Node.js + TypeScript |
+| Banco de dados | PostgreSQL |
+
+## Definição e arquitetura
+
+Comece pelo [documento de definição do projeto](docs/DEFINICAO-DO-PROJETO.md). A seção **Respostas essenciais** reúne o que falta decidir para a primeira entrega; as demais seções detalham autenticação, investimentos, visual e operação. Você pode escrever `DELEGAR` nas escolhas para as quais deseja uma proposta técnica.
+
+A [arquitetura inicial](docs/ARQUITETURA.md) descreve a organização sugerida, os limites entre frontend e API, os cuidados com valores financeiros e a preparação para deploy. As propostas estão identificadas e serão ajustadas conforme as respostas.
+
+Neste momento, o repositório contém a documentação de planejamento. Os comandos de execução, testes, migrações e publicação serão documentados junto com a implementação correspondente.
 
 ## ECC no Codex
 
@@ -20,7 +34,7 @@ rtk proxy codex plugin list --json
 
 Reinicie o Codex para carregar o plugin. As skills estarão disponíveis no próximo turno após o reinício.
 
-1. Descreva o objetivo da aplicação e peça um plano antes da implementação.
+1. Preencha as respostas essenciais do [briefing](docs/DEFINICAO-DO-PROJETO.md).
 2. Use `$tdd-workflow` ao desenvolver funcionalidades com testes.
 3. Use `$verification-loop` para verificar as alterações antes de concluir.
 
