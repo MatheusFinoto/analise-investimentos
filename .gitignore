@@ -1,0 +1,26 @@
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+
+# Dependências e saídas locais
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+dist/
+build/
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
